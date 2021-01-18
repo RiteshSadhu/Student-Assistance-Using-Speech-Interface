@@ -61,6 +61,7 @@ Total marks 10.
 	marks of 7th question = 4*(Accuracy/100)
 
 
+code snippet
 ```python
 		#accuracy of Sentance in Answer Seven
                 accuracyOfSentance = round((sentanceTokenCount * 100) / len(lemmatizedSentance_keyword))
