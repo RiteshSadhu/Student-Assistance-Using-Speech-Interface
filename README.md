@@ -62,21 +62,21 @@ Total marks 10.
 
 
 ```python
-		    #accuracy of Sentance in Answer Seven
-                    accuracyOfSentance = round((sentanceTokenCount * 100) / len(lemmatizedSentance_keyword))
-                    #accuracy of Keyword and Tokens in Answer Seven
-                    accuracyOfTokenWords = round((synonymsWordTokenCount * 100)/ len(synonyms_keyword_text[6]))
+		#accuracy of Sentance in Answer Seven
+                accuracyOfSentance = round((sentanceTokenCount * 100) / len(lemmatizedSentance_keyword))
+                #accuracy of Keyword and Tokens in Answer Seven
+                accuracyOfTokenWords = round((synonymsWordTokenCount * 100)/ len(synonyms_keyword_text[6]))
 
-                    print("Accuracy of sentance : ", accuracyOfSentance)
-                    print("Accurecy of token word :", accuracyOfTokenWords)
+                print("Accuracy of sentance : ", accuracyOfSentance)
+                print("Accurecy of token word :", accuracyOfTokenWords)
 
-                    #result score of Descriptive Answer
-                    accuracy = (accuracyOfTokenWords * 0.7) + (accuracyOfSentance * 0.3)
+                #result score of Descriptive Answer
+                accuracy = (accuracyOfTokenWords * 0.7) + (accuracyOfSentance * 0.3)
 
-                    print('final accuracy of Descriptive answer : ', accuracy)
+                print('final accuracy of Descriptive answer : ', accuracy)
 
-                    #Descriptive Question has 4 points.
-                    totalMarks += 4*(accuracy/100)  
+                #Descriptive Question has 4 points.
+                totalMarks += 4*(accuracy/100)  
 ```
 
 
