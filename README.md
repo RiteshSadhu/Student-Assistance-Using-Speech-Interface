@@ -88,9 +88,11 @@ Total marks 10.
 * ORM SQL query for database oprations
 * Flask Framewrok
 * HTML, CSS, JAVA Script
-* NLTK 
+* Bootstrap
+* NLTK, SpeecRecognition 
 * AWS S3 services
 * AWS RDS
+* AWS EC2
 
  
 
